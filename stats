@@ -1,0 +1,12 @@
+def count_characters(s):
+    x = len(s)
+    return x
+
+def count_words(s):
+    x = len(s.split())
+    return x
+
+def average_word_length(s):
+    x = s.split()
+    avg = sum(len(word) for word in x) / len(x)
+    return avg
